@@ -17,6 +17,7 @@ public class RouteController {
         result.put("from","威海");
         result.put("to","上饶");
         result.put("flight", "MU5542");
+        result.put("client","zhangsan");
 
         return result;
     }
