@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('publish') { // for display purposes
             steps{
-                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: '522bba46-731e-4d3b-afa9-51220afa8ada', url: 'https://github.com/yang66-hash/Jenkins_SVCTest.git']])
+                checkout scmGit(branches: [[name: '*/${branch}']], extensions: [], userRemoteConfigs: [[credentialsId: '522bba46-731e-4d3b-afa9-51220afa8ada', url: 'https://github.com/yang66-hash/Jenkins_SVCTest.git']])
             }
         }
         stage('构建项目') {
