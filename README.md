@@ -5,4 +5,7 @@ A Simple SpringBoot Demo used for testing Jenkins
 
 这是个示例
 
+# 这是一条示例代码
+
+git clone xxxxxxxxxx
 
